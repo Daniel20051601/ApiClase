@@ -10,6 +10,7 @@ public class ProductsController : ControllerBase
     public static List<Productos> listap = new List<Productos>();
 
 
+
     [HttpGet("[Action]")]
     public List<Productos> Get()
     {
